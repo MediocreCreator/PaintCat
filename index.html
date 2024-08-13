@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaintCat Info Station</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WELCOME TO PAINTCAT</h1>
+        
+        <!-- Dropdown for Products -->
+        <label for="productDropdown">Select Product:</label>
+        <select id="productDropdown">
+            <option value="">Select a Product</option>
+            <!-- Products will be dynamically populated here -->
+        </select>
+
+        <!-- Dropdown for Brands -->
+        <label for="brandDropdown">Select Brand:</label>
+        <select id="brandDropdown" disabled>
+            <option value="">Select a Brand</option>
+            <!-- Brands will be dynamically populated here -->
+        </select>
+
+        <!-- Dropdown for product variations -->
+        <label for="variationDropdown">Select Variation:</label>
+        <select id="variationDropdown" disabled>
+            <option value="">Select a variation</option>
+            <!-- Variations will be dynamically populated here -->
+        </select>
+
+        <!-- Container for additional info -->
+        <div id="productInfo" class="product-info">
+            <h2 id="productName"></h2>
+            <img id="productImage" src="" alt="Product Image" class="product-image">
+            <p id="productDescription"></p>
+
+            <!-- Custom Placeholder Image -->
+            <img id="placeholderImage" src="Gun Logo2.png" alt="Placeholder Image" class="placeholder-image">
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+/* Reset and general body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Car\ 1.png'); /* Add your background image here */
+    background-size: cover; /* Ensure the image covers the entire body */
+    background-attachment: fixed;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-color: #000000; /* Fallback background color */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container for center alignment */
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 450px;
+    width: 100%;
+}
+
+/* Title styling */
+h1, h2 {
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+    letter-spacing: 1.2px;
+}
+
+/* Glow text styling */
+.glow-text {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 
+        0 0 5px  #000000,  
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000,
+        0 0 35px #000000;
+}
+
+/* Dropdown styling */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 
+        0 0 5px  #000000,  
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000,
+        0 0 35px #000000;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #7ff07f;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    outline: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+}
+
+select:focus {
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2);
+}
+
+/* Product Info container */
+.product-info {
+    text-align: center;
+    padding: 2px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.product-info img {
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+
+.product-info p {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 10px 0 0;
+    text-shadow: 
+        0 0 5px  #000000,  
+        0 0 10px #000000,
+        0 0 15px #000000,
+        0 0 20px #000000,
+        0 0 25px #000000,
+        0 0 30px #000000,
+        0 0 35px #000000;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block; /* or block */
+    margin: auto;
+}
+
+
+/* Placeholder Image Styles */
+.placeholder-image {
+    display: block;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    opacity: 0.2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
