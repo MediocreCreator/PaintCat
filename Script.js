@@ -39,7 +39,7 @@ const data = {
         "Ducol (1st Affordable Alternative)": [
             { name: "2K Clearcoat 500ml(Requires Hardener & Thinner)", image: "Images/Ducol/2K Clear 500ml.png", description: "9123409250 This competitively priced 2K product range offers a durable, long-lasting finish on both passenger and commercial vehicles." },
             { name: "2K Clearcoat 1L(Requires Hardener & Thinner)", image: "Images/Ducol/2K Clear 1L.png", description: "9123409251 This competitively priced 2K product range offers a durable, long-lasting finish on both passenger and commercial vehicles." },
-            { name: "2K ClearCoat 5L(Requires Hardener & Thinner)", image: "Images/Ducol/2K Clear 1L.png", description: "9123409255 This competitively priced 2K product range offers a durable, long-lasting finish on both passenger and commercial vehicles." }
+            { name: "2K ClearCoat 5L(Requires Hardener & Thinner)", image: "Images/Ducol/2K Clear 5L.png", description: "9123409255 This competitively priced 2K product range offers a durable, long-lasting finish on both passenger and commercial vehicles." }
         ],
         "Speed (2nd Affordable Alternative)": [
             { name: "2K Topcoat Clear 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed Clear.png", description: "9123200001 2K acrylic clearcoat suitable for air drying. It is especially formulated for spraying over basecoats. Speed 2k Clear does not require addition of thinner making its application easy while reducing the cycle time and inventory costs." },
@@ -65,24 +65,6 @@ const data = {
         ]
     },
 
-    "Etch Primers":{
-        "Luxor": [
-            { name: "Etch Primer Red Oxide 1L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Red Oxide 1 & 5L.png", description: "9123602099 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Etch Primer Red Oxide 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Red Oxide 1 & 5L.png", description: "9123602100 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Self Etch Black Primer 1L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black 1L.png", description: "9123602097 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Self Etch Black Primer 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black 1L.png", description: "9123602101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Self Etch Grey Primer 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black Black.png", description: "9123602102 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
-            
-        ],
-    
-    "Duram": [
-        { name: "NS5 Metcote Etch Primer Black 500ml(Thinners ONLY)", image: "Images/NS5.png", description: "9123830088 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
-        { name: "NS5 Metcote Etch Primer Black 1L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830090 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
-        { name: "NS5 Metcote Etch Primer Black 5L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830095 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
-        { name: "NS5 Metcote Etch Primer Red Oxide 1L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830105 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
-        { name: "NS5 Metcote Etch Primer Red Oxide 5L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830110 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." }
-        ]
-    },
     
     "Hardeners": {
         "Nexa (Best In The Range)": [
@@ -143,14 +125,16 @@ const data = {
 
     "NC Ducol Range (Matt Black & Finishing Black)": {
         "Ducol": [
-            { name: "NC Finish Black 1L (No Hardener Required)", image: "Images/Ducol/Ducol NC Finishing Black 1L.png", description: "9123403011 A High Gloss Finish Without The Need For A Hardener" },
-            { name: "NC Finish Black 5L (No Hardener Required)", image: "Images/Ducol/Ducol NC Finishing Black 5L.png", description: "9123403015 A High Gloss Finish Without The Need For A Hardener" },
+            { name: "NC Finishing White 1L (No Hardener Required)", image: "Images/Ducol/NC Finishing White 1L.png", description: "9123403011 A High Gloss Finish Without The Need For A Hardener" },
+            { name: "NC Finishing White 5L (No Hardener Required)", image: "Images/Ducol/NC Finishing White.png", description: "9123403011 A High Gloss Finish Without The Need For A Hardener" },
+            { name: "NC Finishing Black 1L (No Hardener Required)", image: "Images/Ducol/Ducol NC Finishing Black 1L.png", description: "9123403011 A High Gloss Finish Without The Need For A Hardener" },
+            { name: "NC Finishing Black 5L (No Hardener Required)", image: "Images/Ducol/Ducol NC Finishing Black 5L.png", description: "9123403015 A High Gloss Finish Without The Need For A Hardener" },
             { name: "NC Matt Black 1L (No Hardener Required)", image: "Images/Ducol/Ducol NC Matt Black 1L.png", description: "9123403041 A MATT Finish Without The Need For A Hardener" },
             { name: "NC Matt Black 5L (No Hardener Required)", image: "Images/Ducol/Ducol NC Matt Black 5L.png", description: "9123403045 A MATT Finish Without The Need For A Hardener" },
             { name: "NC Fine Opalescent 5L (No Hardener Required)", image: "Images/Ducol/NC Fine Opalescent 5L.png", description: "9123403175 A Silver Finish Also Revered To As Wheel Silver Without The Need For A Hardener" }
         ]
     },
-
+    
     "Orbital Discs/Velcro Discs": {
         "Speed (Affordable Range)": [
             { name: "Disc P80 (100 P/Pack)", image: "Images/Speed/SPEED-Hookit-1.png", description: "9106401230 For Body Filler Sanding With An Orbital Machine" },
@@ -186,7 +170,7 @@ const data = {
             { name: "581C P36 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012010 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
           { name: "581C P60 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012015 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
           { name: "581C P80 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012095 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
-           
+          
         ]
     },
 
@@ -252,7 +236,7 @@ const data = {
             { name: "Speed Double Sided Mop", image: "Images/Speed/MISC-WOOL-MOP.png", description: "9106401350 Wool Mop Alternative " },
         ],
     },
-
+    
     "Polishers & Air Sanders": {
         "Aircraft": [
             { name: "Polisher Random Orbital 800W", image: "Images/Polishers & Sanders/POL4.png", description: "9106620008"},
@@ -276,24 +260,60 @@ const data = {
             { name: "Activator CFE Primer 1L (Part 2 Of 2)", image: "Images/Nexa/Nexa Activator.png", description: "9124469069 Activator for the Chromate Free Etch Primer" }
         ],
         "Ducol (1st Affordable Alternative)": [
-            { name: "MS Primer Grey 1L (Requires Hardener & Thinner)", image: "Images/Ducol/MS 2K Primer 1L.png", description: "9123408001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "MS Primer Grey 5L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123601008 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "MS Primer Beige 1L (Requires Hardener & Thinner)", image: "Images/Ducol/MS 2K Primer 1L.png", description: "9123408002 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Primer Grey 1L", image: "Images/Ducol/MS 2K Primer 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Primer Grey 5L", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Primer Beige 1L", image: "Images/Ducol/MS 2K Primer 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "Primer Beige 5L", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
+            { name: "2K MS Primer Grey 1L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer Grey.png", description: "9123408001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "2K MS Primer Grey 5L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123601008 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "2K MS Primer Beige 1L (Requires Hardener & Thinner)", image: "Images/Ducol/MS Primer Beige 1L.png", description: "9123408002 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Grey 1L", image: "Images/Ducol/NC Primer Grey 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Grey 5L", image: "Images/Ducol/NC Primer Grey 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Beige 1L", image: "Images/Ducol/NC Primer Beige 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Beige 5L", image: "Images/Ducol/NC Primer Beige 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
         ],
         "Speed (2nd Affordable Alternative)": [
             { name: "2K MS Primer Beige 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Beige Primer 1L.png", description: "9123200020 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
             { name: "2K MS Primer Beige 5L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Primer Beige 5L.png", description: "9123200021 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
             { name: "2K MS Grey Primer 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Grey Primer 1L.png", description: "9123200022 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
             { name: "2K MS Grey Primer 5L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Primer Grey 5L.png", description: "9123200023 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
-            { name: "Grey Primer 1L (NO Hardener Required)", image: "Images/Speed & Challenger/Speed NC Grey Primer.png", description: "Speed grey Primer is a modified nitrocellulose based primer. Easy application and sanding, quick drying, has got good filling ability and provide excellent hiding power." }
+            { name: "NC Grey Primer 1L (NO Hardener Required)", image: "Images/Speed & Challenger/Speed NC Grey Primer.png", description: "Speed grey Primer is a modified nitrocellulose based primer. Easy application and sanding, quick drying, has got good filling ability and provide excellent hiding power." }
         ],
         "Luxor (3rd Affordable Alternative)": [
-            { name: "MS Primer 1L(Requires Hardener & Thinner)", image: "Images/Luxor/Transline MS Primer Beige 1L.png", description: "9123504001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "MS Primer Beige 1L(Requires Hardener & Thinner)", image: "Images/Luxor/MS Beige Primer Transline 1L.png", description: "9123504001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
         ],
+    },
+    
+    "Primers Etch":{
+        "Luxor": [
+            { name: "Etch Primer Red Oxide 1L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Red Oxide 1 & 5L.png", description: "9123602099 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "Etch Primer Red Oxide 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Red Oxide 1 & 5L.png", description: "9123602100 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "Self Etch Black Primer 1L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black 1L.png", description: "9123602097 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "Self Etch Black Primer 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black 1L.png", description: "9123602101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "Self Etch Grey Primer 5L(Thinners ONLY)", image: "Images/Luxor/Luxcoat Self Etch Primer Black Black.png", description: "9123602102 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
+            
+        ],
+    
+    "Duram": [
+            { name: "NS5 Metcote Etch Primer Black 500ml(Thinners ONLY)", image: "Images/NS5.png", description: "9123830088 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
+            { name: "NS5 Metcote Etch Primer Black 1L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830090 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
+            { name: "NS5 Metcote Etch Primer Black 5L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830095 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
+            { name: "NS5 Metcote Etch Primer Red Oxide 1L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830105 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." },
+            { name: "NS5 Metcote Etch Primer Red Oxide 5L(Thinners ONLY)", image: "Images/NS5.png", description: "9123830110 This quality metal primer is solvent based and contains acids and adhesion promoters that etch the metal surface ensuring excellent adhesion." }
+        ],
+        "UPOL": [
+            { name: "Acid Etch Aerosol Primer", image: "Images/Upol & Raptor/Acid Etch Aerosol.png", description: "9123100034 Ideal for rub throughs in primer prior to application of color and new bare metal panels." },
+            
+        ]
+    },
+
+    "Primers Plastic": {
+        "Nexa": [
+            { name: "1K Plastic Primer", image: "Images/Nexa/Plastic Primer Nexa.png", description: "9124469011 1K Adhesion Promoter for Plastics is a fast, transparent 1 pack primer suitable for use on the vast majority of paintable plastic substrates and avoids the need to identify the plastic prior to spraying."}
+        ],
+        "PPG": [
+            { name: "1K Plastic Primer", image: "Images/Nexa/820.png", description: "9124400820 A ready for use, transparent formula for use on a wide range of plastic substrates. . Recommended to apply a 2k primer on top of before topcoating."}
+        ],
+        "UPOL": [
+            { name: "1K Aerosol Plastic Primer", image: "Images/Upol & Raptor/Upol 1K Plastic Primer Aerosol.png", description: "9123100065. Ideal for all automotive surfaces such as plastics, aluminium, fibreglass, galvanised and painted surfaces."}
+            
+        ]
     },
     
     
@@ -524,120 +544,74 @@ const data = {
 };
 
 
-// Populate the product dropdown
-const productDropdown = document.getElementById('productDropdown');
-const brandDropdown = document.getElementById('brandDropdown');
-const variationDropdown = document.getElementById('variationDropdown');
-const productImage = document.getElementById('productImage');
-const productDescription = document.getElementById('productDescription');
-const placeholderImage = document.getElementById('placeholderImage');
-
-// Fill the product dropdown
-for (const product in data) {
-    const option = document.createElement('option');
-    option.value = product;
-    option.textContent = product;
-    productDropdown.appendChild(option);
-}
-
-// Function to update visibility of product and placeholder images
-function updateVisibility() {
-    if (productDropdown.value && brandDropdown.value && variationDropdown.value) {
-        // Hide placeholder image and show product image
-        placeholderImage.style.display = 'none';
-        productImage.style.display = 'block';
-    } else {
-        // Show placeholder image and hide product image
-        placeholderImage.style.display = 'block';
-        productImage.style.display = 'none';
+window.onload = function() {
+    const selectProduct = document.getElementById('product');
+    const selectBrand = document.getElementById('brand');
+    const selectVariation = document.getElementById('variation');
+    const variationDetails = document.getElementById('variationDetails');
+    const variationImage = document.getElementById('variationImage');
+    const variationDescription = document.getElementById('variationDescription');
+    
+    // Populate products dropdown
+    for (let product in data) {
+        selectProduct.options[selectProduct.options.length] = new Option(product, product);
     }
-}
 
-// Event listener for product dropdown change
-productDropdown.addEventListener('change', function() {
-    const selectedProduct = this.value;
-
-    // Clear and disable the brand dropdown
-    brandDropdown.innerHTML = '<option value="">Select a Brand</option>';
-    brandDropdown.disabled = true;
-
-    // Clear and disable the variation dropdown
-    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
-    variationDropdown.disabled = true;
-
-    if (selectedProduct) {
-        // Populate the brand dropdown
+    selectProduct.onchange = function() {
+        const selectedProduct = this.value;
         const brands = data[selectedProduct];
-        for (const brand in brands) {
-            const option = document.createElement('option');
-            option.value = brand;
-            option.textContent = brand;
-            brandDropdown.appendChild(option);
+
+        selectBrand.innerHTML = '<option value="" disabled selected>Select a Brand</option>';
+        selectVariation.innerHTML = '<option value="" disabled selected>Select Variation</option>';
+
+        if (selectedProduct) {
+            // Assuming only one brand per product in your data structure
+            for (let brand in brands) {
+                selectBrand.options[selectBrand.options.length] = new Option(brand, brand);
+            }
+
+            selectBrand.disabled = false;
+        } else {
+            selectBrand.disabled = true;
+            selectVariation.disabled = true;
+            variationDetails.style.display = 'none';
         }
 
-        // Enable the brand dropdown
-        brandDropdown.disabled = false;
-    }
+        selectVariation.disabled = true;
+        variationDetails.style.display = 'none';
+    };
 
-    // Clear product info
-    productImage.src = '';
-    productDescription.textContent = '';
-
-    // Update visibility based on current selections
-    updateVisibility();
-});
-
-// Event listener for brand dropdown change
-brandDropdown.addEventListener('change', function() {
-    const selectedProduct = productDropdown.value;
-    const selectedBrand = this.value;
-
-    // Clear and disable the variation dropdown
-    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
-    variationDropdown.disabled = true;
-
-    if (selectedProduct && selectedBrand) {
-        // Populate the variation dropdown
+    selectBrand.onchange = function() {
+        const selectedProduct = selectProduct.value;
+        const selectedBrand = this.value;
         const variations = data[selectedProduct][selectedBrand];
-        variations.forEach(variation => {
-            const option = document.createElement('option');
-            option.value = variation.name;
-            option.textContent = variation.name;
-            variationDropdown.appendChild(option);
-        });
 
-        // Enable the variation dropdown
-        variationDropdown.disabled = false;
-    }
+        selectVariation.innerHTML = '<option value="" disabled selected>Select a Variation</option>';
 
-    // Clear product info
-    productImage.src = '';
-    productDescription.textContent = '';
+        if (selectedBrand) {
+            variations.forEach((variation, index) => {
+                selectVariation.options[selectVariation.options.length] = new Option(variation.name, index);
+            });
 
-    // Update visibility based on current selections
-    updateVisibility();
-});
-
-// Event listener for variation dropdown change
-variationDropdown.addEventListener('change', function() {
-    const selectedProduct = productDropdown.value;
-    const selectedBrand = brandDropdown.value;
-    const selectedVariation = this.value;
-
-    if (selectedProduct && selectedBrand && selectedVariation) {
-        // Find the selected variation data
-        const variation = data[selectedProduct][selectedBrand].find(v => v.name === selectedVariation);
-        
-        if (variation) {
-            // Update product info
-            productImage.src = variation.image;
-            productDescription.textContent = variation.description;
+            selectVariation.disabled = false;
+        } else {
+            selectVariation.disabled = true;
+            variationDetails.style.display = 'none';
         }
-    }
+    };
 
-    // Update visibility based on current selections
-    updateVisibility();
-});
+    selectVariation.onchange = function() {
+        const selectedProduct = selectProduct.value;
+        const selectedBrand = selectBrand.value;
+        const selectedVariationIndex = this.value;
+        const variationInfo = data[selectedProduct][selectedBrand][selectedVariationIndex];
 
-// Initial visibility check
-updateVisibility();
+        if (variationInfo) {
+            variationImage.src = variationInfo.image;
+            variationDescription.textContent = variationInfo.description;
+            variationDetails.style.display = 'block';
+        } else {
+            variationDetails.style.display = 'none';
+        }
+    };
+};
