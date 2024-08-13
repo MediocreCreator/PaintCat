@@ -544,74 +544,121 @@ const data = {
 };
 
 
-window.onload = function() {
-    const selectProduct = document.getElementById('product');
-    const selectBrand = document.getElementById('brand');
-    const selectVariation = document.getElementById('variation');
-    const variationDetails = document.getElementById('variationDetails');
-    const variationImage = document.getElementById('variationImage');
-    const variationDescription = document.getElementById('variationDescription');
-    
-    // Populate products dropdown
-    for (let product in data) {
-        selectProduct.options[selectProduct.options.length] = new Option(product, product);
+// Populate the product dropdown
+const productDropdown = document.getElementById('productDropdown');
+const brandDropdown = document.getElementById('brandDropdown');
+const variationDropdown = document.getElementById('variationDropdown');
+const productImage = document.getElementById('productImage');
+const productDescription = document.getElementById('productDescription');
+const placeholderImage = document.getElementById('placeholderImage');
+
+// Fill the product dropdown
+for (const product in data) {
+    const option = document.createElement('option');
+    option.value = product;
+    option.textContent = product;
+    productDropdown.appendChild(option);
+}
+
+// Function to update visibility of product and placeholder images
+function updateVisibility() {
+    if (productDropdown.value && brandDropdown.value && variationDropdown.value) {
+        // Hide placeholder image and show product image
+        placeholderImage.style.display = 'none';
+        productImage.style.display = 'block';
+    } else {
+        // Show placeholder image and hide product image
+        placeholderImage.style.display = 'block';
+        productImage.style.display = 'none';
+    }
+}
+
+// Event listener for product dropdown change
+productDropdown.addEventListener('change', function() {
+    const selectedProduct = this.value;
+
+    // Clear and disable the brand dropdown
+    brandDropdown.innerHTML = '<option value="">Select a Brand</option>';
+    brandDropdown.disabled = true;
+
+    // Clear and disable the variation dropdown
+    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
+    variationDropdown.disabled = true;
+
+    if (selectedProduct) {
+        // Populate the brand dropdown
+        const brands = data[selectedProduct];
+        for (const brand in brands) {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandDropdown.appendChild(option);
+        }
+
+        // Enable the brand dropdown
+        brandDropdown.disabled = false;
     }
 
-    selectProduct.onchange = function() {
-        const selectedProduct = this.value;
-        const brands = data[selectedProduct];
+    // Clear product info
+    productImage.src = '';
+    productDescription.textContent = '';
 
-        selectBrand.innerHTML = '<option value="" disabled selected>Select a Brand</option>';
-        selectVariation.innerHTML = '<option value="" disabled selected>Select Variation</option>';
+    // Update visibility based on current selections
+    updateVisibility();
+});
 
-        if (selectedProduct) {
-            // Assuming only one brand per product in your data structure
-            for (let brand in brands) {
-                selectBrand.options[selectBrand.options.length] = new Option(brand, brand);
-            }
+// Event listener for brand dropdown change
+brandDropdown.addEventListener('change', function() {
+    const selectedProduct = productDropdown.value;
+    const selectedBrand = this.value;
 
-            selectBrand.disabled = false;
-        } else {
-            selectBrand.disabled = true;
-            selectVariation.disabled = true;
-            variationDetails.style.display = 'none';
-        }
+    // Clear and disable the variation dropdown
+    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
+    variationDropdown.disabled = true;
 
-        selectVariation.disabled = true;
-        variationDetails.style.display = 'none';
-    };
-
-    selectBrand.onchange = function() {
-        const selectedProduct = selectProduct.value;
-        const selectedBrand = this.value;
+    if (selectedProduct && selectedBrand) {
+        // Populate the variation dropdown
         const variations = data[selectedProduct][selectedBrand];
+        variations.forEach(variation => {
+            const option = document.createElement('option');
+            option.value = variation.name;
+            option.textContent = variation.name;
+            variationDropdown.appendChild(option);
+        });
 
-        selectVariation.innerHTML = '<option value="" disabled selected>Select a Variation</option>';
+        // Enable the variation dropdown
+        variationDropdown.disabled = false;
+    }
 
-        if (selectedBrand) {
-            variations.forEach((variation, index) => {
-                selectVariation.options[selectVariation.options.length] = new Option(variation.name, index);
-            });
+    // Clear product info
+    productImage.src = '';
+    productDescription.textContent = '';
 
-            selectVariation.disabled = false;
-        } else {
-            selectVariation.disabled = true;
-            variationDetails.style.display = 'none';
+    // Update visibility based on current selections
+    updateVisibility();
+});
+
+// Event listener for variation dropdown change
+variationDropdown.addEventListener('change', function() {
+    const selectedProduct = productDropdown.value;
+    const selectedBrand = brandDropdown.value;
+    const selectedVariation = this.value;
+
+    if (selectedProduct && selectedBrand && selectedVariation) {
+        // Find the selected variation data
+        const variation = data[selectedProduct][selectedBrand].find(v => v.name === selectedVariation);
+        
+        if (variation) {
+            // Update product info
+            productImage.src = variation.image;
+            productDescription.textContent = variation.description;
         }
-    };
+    }
 
-    selectVariation.onchange = function() {
-        const selectedProduct = selectProduct.value;
-        const selectedBrand = selectBrand.value;
-        const selectedVariationIndex = this.value;
-        const variationInfo = data[selectedProduct][selectedBrand][selectedVariationIndex];
+    // Update visibility based on current selections
+    updateVisibility();
+});
 
-        if (variationInfo) {
-            variationImage.src = variationInfo.image;
-            variationDescription.textContent = variationInfo.description;
-            variationDetails.style.display = 'block';
-        } else {
-            variationDetails.style.display = 'none';
-        }
-    };
-};
+// Initial visibility check
+updateVisibility();
+
