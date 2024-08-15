@@ -89,7 +89,13 @@ const data = {
             { name: "Fast Hardener 5L", image: "Images/Luxor/Transline Fast Hardener 5L.png", description: "9123601006 Used In Colder Conditions" }
         ]
     },
-
+    "Masking Film": {
+        "Finixa": [
+            { name: "Masking Film 300mx 4m", image: "Images/Finixa Mixing Cups/Masking Film.png", description: "9106145252 A Transparent Film Used For Masking Vehicles During The Pianting Process" }
+            
+        ],
+    },
+    
     "Masking Tape": {
         "Speed/Avast": [
             { name: "AVAST 18mm", image: "Images/Speed/Avast 18.png", description: "9106401001 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
@@ -99,6 +105,7 @@ const data = {
             { name: "Speed 48mm", image: "Images/Speed/Speed48.png", description: "9106401004 For Masking Of Larger Surfaces" }
         ]
     },
+
 
     "Mixing Cups & Paint Strainers":{
         "Finixa Cups":[
@@ -135,7 +142,7 @@ const data = {
         ]
     },
     
-    "Orbital Discs/Velcro Discs": {
+    "Orbital Discs & Sun Net Strips (AbraNet)": {
         "Speed (Affordable Range)": [
             { name: "Disc P80 (100 P/Pack)", image: "Images/Speed/SPEED-Hookit-1.png", description: "9106401230 For Body Filler Sanding With An Orbital Machine" },
             { name: "Disc P150 (100 P/Pack)", image: "Images/Speed/SPEED-Hookit-1.png", description: "9106401231 For Body Filler Sanding With An Orbital Machine" },
@@ -171,6 +178,15 @@ const data = {
           { name: "581C P60 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012015 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
           { name: "581C P80 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012095 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
           
+        ],
+        "Sunmight (Abranet/Sun Net)": [
+            { name: "Sun Net Valcro Ceramic P80 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405633 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
+            { name: "Sun Net Valcro Ceramic P150 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405634 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
+            { name: "Sun Net Valcro Ceramic P320 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405635 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
+            { name: "Sun Net Valcro Ceramic P400 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405636 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
+            { name: "Sanding Block With Extraction 70x198mm", image: "Images/Sunmight/Sanding Blocks.png", description: "9106405641" },
+            { name: "Sanding Block With Extraction 70x400mm", image: "Images/Sunmight/Sanding Blocks.png", description: "9106405642" }
+
         ]
     },
 
