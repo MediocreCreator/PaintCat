@@ -223,6 +223,7 @@ const data = {
             { name: "Compounding Ultimate Applicator 150mm", image: "Images/Glissen/Compounding Ultimate Applicator 150mm GLI150 Glissen Nitro 9106405042.png", description: "9106405042 Can be used with the Single Stage Compound" },
             { name: "Compound Foam Applicator Purple 150mm (2)", image: "Images/Glissen/Compound Foam Applicator Purple 150mm GLI051 Glissen Nitro 9106405004.png", description: "9106405004 For use with the Single Stage Compound" },
             { name: "Applicator Waffle Finishing Foam Black 150mm (2)", image: "Images/Glissen/Applicator Waffle Finishing Foam Black 150mm GLI052 Glissen Nitro 9106405019.png", description: "9106405019 Used for a final finish on dark colors in conjuction with the Finishing Compound" },
+            { name: "Interface Pad 150mm", image: "Images/Glissen/Interface.png", description: "9106405095 Used as a buffer between backing plate and orbital disc. Ideal for use when sanding edges and corners."},
             { name: "Clay Mitt 152x221mm", image: "Images/Glissen/Clay Mitt 152x221mm GLI009 Glissen Nitro 9106405015.png", description: "9106405015 Used for removing overspray. Requires a spray bottle with soapy water." },
             { name: "Wool Mop Double Sided 8mm", image: "Images/Glissen/Pad Wool Generate Double Sided_ 8mm GLI250 Glissen Nitro 9106405047.png", description: "9106405047 Alternative to the 3M Wool Mop" },
         ],
