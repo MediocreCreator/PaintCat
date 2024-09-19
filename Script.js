@@ -103,6 +103,15 @@ const data = {
             { name: "Speed 24mm", image: "Images/Speed/Speed24.png", description: "9106401002 For Masking Of Larger Surfaces" },
             { name: "Speed 36mm", image: "Images/Speed/Speed36.png", description: "9106401003 For Masking Of Larger Surfaces" },
             { name: "Speed 48mm", image: "Images/Speed/Speed48.png", description: "9106401004 For Masking Of Larger Surfaces" }
+        ],
+
+        "Finixa": [
+            {name: "Tape Lifting 10mm x10m", image: "Images/Finixa Mixing Cups/Lifiting Tape.png", description: "9106405336 Masking tape with 10mm plastic strip for masking around wind screens. Simply place the plastic strip between rubber and panel and then pull away the rubber from the panel by attaching the tape to the window."}
+        ],
+
+        "3M": [
+            {name: "Tape Trim Masking", image: "Images/3M/Trim Tape.png", description: "9106028020 Hard band at the tape edge slightly lifts moldings from the body, concealing sharp paint edges "}
+
         ]
     },
 
