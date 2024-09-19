@@ -96,7 +96,7 @@ const data = {
         ],
     },
     
-    "Masking Tape": {
+    "Masking Tape & Trim Masking Tape": {
         "Speed/Avast": [
             { name: "AVAST 18mm", image: "Images/Speed/Avast 18.png", description: "9106401001 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
             { name: "Speed 18mm", image: "Images/Speed/Speed18.png", description: "9106401005 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
