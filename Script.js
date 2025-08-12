@@ -23,19 +23,13 @@ const data = {
             { name: "Fibral Glass Fibre Paste Bag 880ml", image: "Images/Upol & Raptor/Fibral.png", description: "9123100026 Fibre Glass Reinforced Filler (Incl. 1x 40g Hardener) Fibral Fiberglass Filler takes the place of short and long strand products and is ideal for bridging holes while providing a tough resistant GRP coating." },
             { name: "Stronghold Plastic Filler 600ml", image: "Images/Upol & Raptor/706I.png", description: "9123100032 Can be used on flexible plastics. Ideal to repair holes, scuffs and scratches in plastic parts." }
         ],
-        "Gondolier (1st Affordable Alternative)": [
-            { name: "Fixon Body Filler 1kg", image: "Images/Gondolier/Fixon Body Filler 1kg.png", description:"9106405099 - Standard body filler used in everyday applications"},
-            { name: "Fixon Body Filler 5kg", image: "Images/Gondolier/Fixon Body Filler 5kg.png", description:"9106405098 - Standard body filler used in everyday applications"}
-                    
-        ],
-        "Luxor (2nd Affordable Alternative)": [
+        "Luxor (1st Affordable Alternative)": [
             { name: "Fusion Filler 500gr", image: "Images/Luxor/Luxor Fusion Filler 1KG.png", description: "9123600021 This super lightweight polyester filler is easy to spread, smooth, and sand. It can be used on metal and wood. Tack free and can be sanded after 15 minutes Remains easy to sand even after several hours.  Provides excellent adhesion. Can use it on all metal surfaces, aluminium, galvanized steel. Can also be used on wood and various plastics." },
             { name: "Fusion Filler 1Kg", image: "Images/Luxor/Luxor Fusion Filler 1KG.png", description: "9123600020 This super lightweight polyester filler is easy to spread, smooth, and sand. It can be used on metal and wood. Tack free and can be sanded after 15 minutes Remains easy to sand even after several hours.  Provides excellent adhesion. Can use it on all metal surfaces, aluminium, galvanized steel. Can also be used on wood and various plastics." },
             { name: "Fusion Filler 4Kg", image: "Images/Luxor/Luxor Fusion Filler.png", description: "9123600025 This super lightweight polyester filler is easy to spread, smooth, and sand. It can be used on metal and wood. Tack free and can be sanded after 15 minutes Remains easy to sand even after several hours.  Provides excellent adhesion. Can use it on all metal surfaces, aluminium, galvanized steel. Can also be used on wood and various plastics." },
             { name: "Multi Body Filler 1Kg", image: "Images/Luxor/Luxor Multi Filler 1KG.png", description: "9123600026 Can be used on all metals, including steel, aluminium, and galvanized steel surfaces to obtain a pinhole-free finish." },
             { name: "Multi Body Filler 5Kg", image: "Images/Luxor/Luxor Multi Filler 1KG.png", description: "9123600027 Can be used on all metals, including steel, aluminium, and galvanized steel surfaces to obtain a pinhole-free finish." }
         ]
-        
     },
     
     "Clearcoats": {
@@ -60,8 +54,8 @@ const data = {
     },
     
     "DART Tape/ Sponge Tape": {
-        "Fixon Foam Tape ( Best In The Range)": [
-            {name: "Tape Sponge 13mm x50m", image: "Images/Gondolier/Foam Tape.png", description: "910640533 - A foam tape designed to be used in masking door jambs, hood or deck lid openings or other areas of a vehicle which need to be sealed during the painting operation. Provides a soft edge to prevent tape lines in the jamb areas."},
+        "Finixa ( Best In The Range)": [
+            {name: "Tape Sponge 13mm x50m", image: "Images/Tack Rags & Cloths/Finixa Dart.png", description: "9106405337 A foam tape designed to be used in masking door jambs, hood or deck lid openings or other areas of a vehicle which need to be sealed during the painting operation. Provides a soft edge to prevent tape lines in the jamb areas."},
         ],
         "Speed (1st Affordable Alternative)": [
             {name: "Foam Tape Dart", image: "Images/Tack Rags & Cloths/Speed Dart.png", description: "9106401300 A foam tape designed to be used in masking door jambs, hood or deck lid openings or other areas of a vehicle which need to be sealed during the painting operation. Provides a soft edge to prevent tape lines in the jamb areas."},
@@ -71,13 +65,6 @@ const data = {
         ]
     },
 
-    "Fine Line Tap & Dry Guide": {
-        "Fixon": [
-            {name: "Fine Line Tape 3mm", image: "Images/Gondolier/Fine Line Tape 3mm.png", description: "9106405334 - Used for fine masking of pin stripping lines"},
-            {name: "Fine Line Tape 6mm", image: "Images/Gondolier/Fine Line Tape 3mm.png", description: "9106405335 - Used for fine masking of pin stripping lines"},
-            {name: "Dry Guide", image: "Images/Gondolier/Dry Guide.png", description: "9106405313 - A black powdered guide coat to show high and low spots when sanding. Excellent for revealing scratch marks"}
-        ]
-    },
     
     "Hardeners": {
         "Nexa (Best In The Range)": [
@@ -102,7 +89,13 @@ const data = {
             { name: "Fast Hardener 5L", image: "Images/Luxor/Transline Fast Hardener 5L.png", description: "9123601006 Used In Colder Conditions" }
         ]
     },
-
+    "Masking Film": {
+        "Finixa": [
+            { name: "Masking Film 300mx 4m", image: "Images/Finixa Mixing Cups/Masking Film.png", description: "9106145252 A Transparent Film Used For Masking Vehicles During The Pianting Process" }
+            
+        ],
+    },
+    
     "Masking Tape": {
         "Speed/Avast": [
             { name: "AVAST 18mm", image: "Images/Speed/Avast 18.png", description: "9106401001 80 Degrees Celcuis Tolerance. Ideal For The Panel Shop." },
@@ -113,33 +106,27 @@ const data = {
         ]
     },
 
-    "Masking Film": {
-        "Fixon": [
-            { name: "Masking Film 300mx 4m", image: "Images/Gondolier/Masking Film.png", description: "9106145252 - A Transparent Film Used For Masking Vehicles During The Pianting Process" }
-            
-        ],
-    },
 
     "Mixing Cups & Paint Strainers":{
-        "Fixon Cups":[
-            { name: "Mixing Cup Unprinted 400ml", image: "Images/Gondolier/Unprinted Cup 400ml.png", description: "9106145140 Used For Mixing Paints" },
-            { name: "Mixing Cup Printed 400ml", image: "Images/Gondolier/Printed Cup 400ml.png", description: "9106145141 Used For Mixing Paints" },
-            { name: "Mixing Cup Lid 400ml", image: "Images/Gondolier/Mixing Cup Lid.png", description: "9106145145 Lids For Mixing Cups" },
-            { name: "Mixing Cup Unprinted 650ml", image: "Images/Gondolier/Unprinted Cup 650ml.png", description: "9106145150 Used For Mixing Paints" },
-            { name: "Mixing Cup Uprinted 650ml", image: "Images/Gondolier/Printed Cup 650ml.png", description: "9106145151 Used For Mixing Paints" },
-            { name: "Mixing Cup Lid 650ml", image: "Images/Gondolier/Mixing Cup Lid.png", description: "9106145155 Lids For Mixing Cups" },
-            { name: "Mixing Cup Unprinted 1300ml", image: "Images/Gondolier/Unprinted Cup 1300ml.png", description: "9106145160 Used For Mixing Paints" },
-            { name: "Mixing Cup printed 1300ml", image: "Images/Gondolier/Printed Cup 1300ml.png", description: "9106145161 Used For Mixing Paints" },
-            { name: "Mixing Cup Lid 1300ml", image: "Images/Gondolier/Mixing Cup Lid.png", description: "9106145165 Lids For Mixing Cups" },
-            { name: "Mixing Cup Unprinted 2400ml", image: "Images/Gondolier/Unprinted Cup 2240ml.png", description: "9106145170 Used For Mixing Paints" },
-            { name: "Mixing Cup printed 2400ml", image: "Images/Gondolier/Printed Cup 2400ml.png", description: "9106145171 Used For Mixing Paints" },
-            { name: "Mixing Cup Lid 2400ml", image: "Images/Gondolier/Mixing Cup Lid.png", description: "9106145175 Lids For Mixing Cups" },
+        "Finixa Cups":[
+            { name: "Mixing Unprinted 400ml 400ml", image: "Images/Finixa Mixing Cups/Unprinted.png", description: "9106145140 Used For Mixing Paints" },
+            { name: "Mixing Printed 400ml", image: "Images/Finixa Mixing Cups/400ml.png", description: "9106145141 Used For Mixing Paints" },
+            { name: "Lid Mixing 400ml", image: "Images/Finixa Mixing Cups/Lid.png", description: "9106145145 Lids For Mixing Cups" },
+            { name: "Mixing Unprinted 650ml", image: "Images/Finixa Mixing Cups/Unprinted.png", description: "9106145150 Used For Mixing Paints" },
+            { name: "Mixing Uprinted 650ml", image: "Images/Finixa Mixing Cups/650ml.png", description: "9106145151 Used For Mixing Paints" },
+            { name: "Lid Mixing 650ml", image: "Images/Finixa Mixing Cups/Lid.png", description: "9106145155 Lids For Mixing Cups" },
+            { name: "Mixing Unprinted 1300ml", image: "Images/Finixa Mixing Cups/Unprinted.png", description: "9106145160 Used For Mixing Paints" },
+            { name: "Mixing printed 1300ml", image: "Images/Finixa Mixing Cups/1300ml.png", description: "9106145161 Used For Mixing Paints" },
+            { name: "Lid Mixing 1300ml", image: "Images/Finixa Mixing Cups/Lid.png", description: "9106145165 Lids For Mixing Cups" },
+            { name: "Mixing Unprinted 2400ml", image: "Images/Finixa Mixing Cups/Unprinted.png", description: "9106145170 Used For Mixing Paints" },
+            { name: "Mixing printed 2400ml", image: "Images/Finixa Mixing Cups/2400ml.png", description: "9106145171 Used For Mixing Paints" },
+            { name: "Lid Mixing 2400ml", image: "Images/Finixa Mixing Cups/Lid.png", description: "9106145175 Lids For Mixing Cups" },
             
         ],
 
         "Paint Strainers":[
-            { name: "Nylon 125 Micron", image: "Images/Gondolier/Paint Strainer 125.png", description: "9106145200 For use with Water and Solvent based Paints." },
-        { name: "Nylon 190 Micron", image: "Images/Gondolier/Paint Strainer 125.png", description: "9106145205 Used For Solvent Based Paints ONLY" },
+            { name: "Nylon 125 Micron", image: "Images/Finixa Mixing Cups/125mi.png", description: "9106145200 For use with Water and Solvent based Paints." },
+        { name: "Nylon 190 Micron", image: "Images/Finixa Mixing Cups/190mi.png", description: "9106145205 Used For Solvent Based Paints ONLY" },
         ]
     },
 
@@ -155,7 +142,7 @@ const data = {
         ]
     },
     
-    "Orbital Discs/Velcro Discs & Sun Net Strips (AbraNet)": {
+    "Orbital Discs & Sun Net Strips (AbraNet)": {
         "Speed (Affordable Range)": [
             { name: "Disc P80 (100 P/Pack)", image: "Images/Speed/SPEED-Hookit-1.png", description: "9106401230 For Body Filler Sanding With An Orbital Machine" },
             { name: "Disc P150 (100 P/Pack)", image: "Images/Speed/SPEED-Hookit-1.png", description: "9106401231 For Body Filler Sanding With An Orbital Machine" },
@@ -192,16 +179,13 @@ const data = {
           { name: "581C P80 115mmx22mm", image: "Images/Finixa Mixing Cups/3m Fibre Disc.png", description: "9106012095 A stiff fiber backing and strong resin bond provide durability and tear resistance for heavy grinding applications, such as medium to high-pressure grinding, weld removal, and beveling — including robotic operations" }, 
           
         ],
-        "Sunmight & Sanding Blocks": [
+        "Sunmight (Abranet/Sun Net)": [
             { name: "Sun Net Valcro Ceramic P80 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405633 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
             { name: "Sun Net Valcro Ceramic P150 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405634 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
             { name: "Sun Net Valcro Ceramic P320 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405635 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
             { name: "Sun Net Valcro Ceramic P400 70x450mm", image: "Images/Sunmight/Sun Net Strips.png", description: "9106405636 Sunmight’s special abrasives coating technology on net backing provides excellent cutting performance and less clogging problem." },
-            { name: "Sanding Block Dust Free 70x198mm", image: "Images/Sunmight/Fixon Short.png", description: "9106405096" },
-            { name: "Sanding Block Dust Free 70x400mm", image: "Images/Sunmight/Fixon Long.png", description: "9106405097" }
-
-            
-
+            { name: "Sanding Block With Extraction 70x198mm", image: "Images/Sunmight/Sanding Blocks.png", description: "9106405641" },
+            { name: "Sanding Block With Extraction 70x400mm", image: "Images/Sunmight/Sanding Blocks.png", description: "9106405642" }
 
         ]
     },
@@ -233,7 +217,7 @@ const data = {
             { name: "Compound Paste Ultimate 200gr", image: "Images/Glissen/Compound Paste Ultimate 200gr GLI104 Glissen Nitro 9106405037.png", description: "9106405037 Cheaper alternative of polish for light colors. Much like Strata-Crème" },
             { name: "Compound Paste Ultimate 500gr", image: "Images/Glissen/Compound Paste Ultimate 200gr GLI104 Glissen Nitro 9106405037.png", description: "9106405035 Cheaper alternative of polish for light colors. Much like Strata-Crème" },
             { name: "Compound Paste Ultimate Combo With Applicator", image: "Images/Glissen/Glissen-Ultimate-Paste-Compound-3Kg-768x925.png", description: "9106405036 Cheaper alternative of polish for light colors. Much like Strata-Crème" },
-            { name: "Restorer Finish Black Trim 360ml (Discontinued)", image: "Images/Glissen/Restorer Finish Black Trim 360ml SLF001 Solution Finish 9106405515.png", description: "9106405515 - Restores most black trimmings on the car without fading afterwards" },
+            { name: "Restorer Finish Black Trim 360ml", image: "Images/Glissen/Restorer Finish Black Trim 360ml SLF001 Solution Finish 9106405515.png", description: "9106405515 Restores most black trimmings on the car without fading afterwards" },
             { name: "Bolt Adaptor Generate 14mm", image: "Images/Glissen/Bolt Adaptor Generate 14mm GLI255 Glissen Nitro 9106405021.png", description: "9106405021 Adaptor for the Polish maschine and backup pad" },
             { name: "Plate Backing With Interface 150mm - 14mm Thread", image: "Images/Glissen/Plate Backing With Interface 150mm 14mm Therad GLI050 Glissen Nitro 9106405005.png", description: "9106405005 Backup pad that is used with the Purple/Black waffle pads" },
             { name: "Compounding Ultimate Applicator 150mm", image: "Images/Glissen/Compounding Ultimate Applicator 150mm GLI150 Glissen Nitro 9106405042.png", description: "9106405042 Can be used with the Single Stage Compound" },
@@ -265,15 +249,9 @@ const data = {
             
         ],
         
-        "Speed": [ 
-            { name: "Speed Double Sided Mop", image: "Images/Speed/MISC-WOOL-MOP.png", description: "9106401350 Wool Mop Alternative"},
+        "Speed/Aircraft": [ 
+            { name: "Speed Double Sided Mop", image: "Images/Speed/MISC-WOOL-MOP.png", description: "9106401350 Wool Mop Alternative " },
         ],
-        "Tork Craft": [
-            { name: "Foam Pad Orange 200mm", image: "Images/Tork Craft/Orange Mop.png", description: "9106407101 - 1st step polishing pad used for compounding applications"},
-            { name: "Foam Pad Red 200mm", image: "Images/Tork Craft/Red Mop.png", description: "9106407102 - 2nd step polishing pad used for compounding applications"},
-            { name: "Foam Pad black 200mm", image: "Images/Tork Craft/Black Pad.png", description: "9106407103 - Final step for polishing."},
-            { name: "Backing Pad HooKit", image: "Images/Tork Craft/Backing Pad.png", description: "9106407106 - backing pad used for orbital discs & sanders"},
-        ]
     },
     
     "Polishers & Air Sanders": {
@@ -302,10 +280,10 @@ const data = {
             { name: "2K MS Primer Grey 1L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer Grey.png", description: "9123408001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
             { name: "2K MS Primer Grey 5L (Requires Hardener & Thinner)", image: "Images/Ducol/2K MS Primer 5L.png", description: "9123601008 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
             { name: "2K MS Primer Beige 1L (Requires Hardener & Thinner)", image: "Images/Ducol/MS Primer Beige 1L.png", description: "9123408002 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Grey 1L (NO Hardener Required)", image: "Images/Ducol/NC Primer Grey 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Grey 5L (NO Hardener Required)", image: "Images/Ducol/NC Primer Grey 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Beige 1L (NO Hardener Required)", image: "Images/Ducol/NC Primer Beige 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
-            { name: "NC Primer Beige 5 (NO Hardener Required)", image: "Images/Ducol/NC Primer Beige 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
+            { name: "NC Primer Grey 1L", image: "Images/Ducol/NC Primer Grey 1L.png", description: "9123408051 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Grey 5L", image: "Images/Ducol/NC Primer Grey 5L.png", description: "9123408055 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Beige 1L", image: "Images/Ducol/NC Primer Beige 1L.png", description: "9123408101 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
+            { name: "NC Primer Beige 5L", image: "Images/Ducol/NC Primer Beige 5L.png", description: "9123408105 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" }
         ],
         "Speed (2nd Affordable Alternative)": [
             { name: "2K MS Primer Beige 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Beige Primer 1L.png", description: "9123200020 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
@@ -367,11 +345,11 @@ const data = {
     },
 
     "Sanding Sponge": {
-        "Fixon": [
-            { name: "320 Grit Pad", image: "Images/Gondolier/Sharp Foam Pads P320.png", description: "9106405447 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
-            { name: "500 Grit Pad", image: "Images/Gondolier/Sharp Foam Pads P320.png", description: "9106405443 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
-            { name: "800 Grit Pad", image: "Images/Gondolier/Sharp Foam Pads P320.png", description: "9106405446 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
-            { name: "1000 Grit Pad", image: "Images/Gondolier/Sharp Foam Pads P320.png", description: "9106405448 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" }, 
+        "Finixa": [
+            { name: "320 Grit Pad", image: "Images/Sunmight/SharpFoamPad.png", description: "9106405447 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
+            { name: "500 Grit Pad", image: "Images/Sunmight/SharpFoamPad.png", description: "9106405443 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
+            { name: "800 Grit Pad", image: "Images/Sunmight/SharpFoamPad.png", description: "9106405446 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" },
+            { name: "1000 Grit Pad", image: "Images/Sunmight/SharpFoamPad.png", description: "9106405448 2-sided abrasive. Super soft backing foam allowing the product to adapt perfectly to all profiled work pieces. Pressure distributing foam reduces sanding through and guarantees an even and uniform sanding pattern. Dry or wet application" }, 
         ],
         
         "3M":[
@@ -391,7 +369,7 @@ const data = {
         ]
     },
 
-    "Scotch Brite":{
+    "Scotch Brite & Misc":{
         "3M": [
             {name: " Maroon Very Fine", image: "Images/3M/Maroon Pad.png", description: "9106107447 Used For Blending Application With Scuff Stuff"},
             {name: " Grey Ultra Fine", image: "Images/3M/Grey Pad.png", description: "9106107448 Used For Blending Application With Scuff Stuff" }
@@ -422,13 +400,6 @@ const data = {
         ],
         "PPG Spot Putty": [
             { name: "PPG A242 VBA Putty-Beige 0.2g", image: "Images/PPG Putty.png", description: "9124410242 Used For Filling Small Imperfections During The Body Filler & Primer Stages" }
-        ]
-    },
-
-    "Spray Masks & Accessories": {
-        "Fixon": [
-            { name: "Spray Mask", image: "Images/Gondolier/Spray Mask.png", description: "9106405910 - Half face mask used in the spray painting process" }
-
         ]
     },
 
@@ -472,10 +443,10 @@ const data = {
     },
 
     "Tack Cloths & Wipes": {
-        "Fixon": [
-            { name: "Degreasing Cloth_ 300x420mm", image:"Images/Gondolier/Degreasing Cloth.png", description: "9106405327 - Universal cleaning cloth with a large absorption capacity. Voluminous and soft; comfortable handling. Suited for all kinds of applications such as degreasing and cleaning with solvent-based products or oil."},
-            { name: "Tack Rag Smooth 380x450mm", image:"Images/Tack Rags & Cloths/Tack Rag Blue.png", description: "9106405332 - Impregnated with a water-based product: works anti-static, unlike other tack rags. Never leaves traces of glue that could possibly cause a reaction with any paint"},
-            { name: "Cleaning Paper 3-Layer Roll_ 380x370mm", image:"Images/Tack Rags & Cloths/Cleaning Cloth Roll.png", description: "9106405331 - High quality cleaning paper, 3-layer, good absorption capacity, solid when wet"}
+        "Finixa": [
+            { name: "Degreasing Cloth_ 300x420mm", image:"Images/Tack Rags & Cloths/Degreasing Paper.png", description: "9106405327 Universal cleaning cloth with a large absorption capacity. Voluminous and soft; comfortable handling. Suited for all kinds of applications such as degreasing and cleaning with solvent-based products or oil."},
+            { name: "Tack Rag Smooth 380x450mm", image:"Images/Tack Rags & Cloths/Tack Rag Blue.png", description: "9106405332 Impregnated with a water-based product: works anti-static, unlike other tack rags. Never leaves traces of glue that could possibly cause a reaction with any paint"},
+            { name: "Cleaning Paper 3-Layer Roll_ 380x370mm", image:"Images/Tack Rags & Cloths/Cleaning Cloth Roll.png", description: "9106405331 High quality cleaning paper, 3-layer, good absorption capacity, solid when wet"}
         ],
 
     "Scholl": [
@@ -487,10 +458,10 @@ const data = {
     },
     
     "Spray Suites/ Overalls": {
-        "Fixon": [
-            { name: "Overall Spraypainter Blue M", image:"Images/Gondolier/Spray Overall.png", description: "9106405502 - Overall used for spray painting"},
-            { name: "Overall Spraypainter Blue L", image:"Images/Gondolier/Spray Overall.png", description: "9106405503 - Overall used for spray painting"},
-            { name: "Overall Spraypainter Blue XL", image:"Images/Gondolier/Spray Overall.png", description: "9106405504 - Overall used for spray painting"}
+        "Finixa": [
+            { name: "Overall Spraypainter Blue M", image:"Images/Tack Rags & Cloths/Overall.png", description: "9106405502"},
+            { name: "Overall Spraypainter Blue L", image:"Images/Tack Rags & Cloths/Overall.png", description: "9106405503"},
+            { name: "Overall Spraypainter Blue XL", image:"Images/Tack Rags & Cloths/Overall.png", description: "9106405504"}
 
         ]
     },
@@ -515,16 +486,6 @@ const data = {
             { name: "B & R Thinners Std 200L", image: "Images/B & R/BR 200.png", description: "9123030200 Cleaning Thinners. Used ONLY for Cleaning. NOT RECOMMENDED for Spraying Cars As it will dull the paint work" }
         ]
     },
-
-    "Trim Tape":{
-        "Fixon": [
-            { name: "Trim Masking Tape", image: "Images/Gondolier/Trim Masking Tape.png", description: "Non Stock yet! - Used for masking of trimmings" },
-        ],
-        "3M": [
-            { name: "Trim Masking Tape", image: "Images/3M/Trim Tape.png", description: "9106028020 - Used for masking of trimmings" }
-        ]
-    },
-
     "Upol Raptor": {
         "Raptor Black": [
             { name: "Raptor Liner Black 1L Kit", image: "Images/Upol & Raptor/Raptor Black 1L.png", description: "9123100050 Spray or roll it on high traffic areas; it’s scratch and stain resistant and easy to clean. Its flexible formulation can handle impacts without cracking, making it perfect for its most popular application as a truck bed liner." },
@@ -600,74 +561,121 @@ const data = {
 };
 
 
-window.onload = function() {
-    const selectProduct = document.getElementById('product');
-    const selectBrand = document.getElementById('brand');
-    const selectVariation = document.getElementById('variation');
-    const variationDetails = document.getElementById('variationDetails');
-    const variationImage = document.getElementById('variationImage');
-    const variationDescription = document.getElementById('variationDescription');
-    
-    // Populate products dropdown
-    for (let product in data) {
-        selectProduct.options[selectProduct.options.length] = new Option(product, product);
+// Populate the product dropdown
+const productDropdown = document.getElementById('productDropdown');
+const brandDropdown = document.getElementById('brandDropdown');
+const variationDropdown = document.getElementById('variationDropdown');
+const productImage = document.getElementById('productImage');
+const productDescription = document.getElementById('productDescription');
+const placeholderImage = document.getElementById('placeholderImage');
+
+// Fill the product dropdown
+for (const product in data) {
+    const option = document.createElement('option');
+    option.value = product;
+    option.textContent = product;
+    productDropdown.appendChild(option);
+}
+
+// Function to update visibility of product and placeholder images
+function updateVisibility() {
+    if (productDropdown.value && brandDropdown.value && variationDropdown.value) {
+        // Hide placeholder image and show product image
+        placeholderImage.style.display = 'none';
+        productImage.style.display = 'block';
+    } else {
+        // Show placeholder image and hide product image
+        placeholderImage.style.display = 'block';
+        productImage.style.display = 'none';
+    }
+}
+
+// Event listener for product dropdown change
+productDropdown.addEventListener('change', function() {
+    const selectedProduct = this.value;
+
+    // Clear and disable the brand dropdown
+    brandDropdown.innerHTML = '<option value="">Select a Brand</option>';
+    brandDropdown.disabled = true;
+
+    // Clear and disable the variation dropdown
+    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
+    variationDropdown.disabled = true;
+
+    if (selectedProduct) {
+        // Populate the brand dropdown
+        const brands = data[selectedProduct];
+        for (const brand in brands) {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandDropdown.appendChild(option);
+        }
+
+        // Enable the brand dropdown
+        brandDropdown.disabled = false;
     }
 
-    selectProduct.onchange = function() {
-        const selectedProduct = this.value;
-        const brands = data[selectedProduct];
+    // Clear product info
+    productImage.src = '';
+    productDescription.textContent = '';
 
-        selectBrand.innerHTML = '<option value="" disabled selected>Select a Brand</option>';
-        selectVariation.innerHTML = '<option value="" disabled selected>Select Variation</option>';
+    // Update visibility based on current selections
+    updateVisibility();
+});
 
-        if (selectedProduct) {
-            // Assuming only one brand per product in your data structure
-            for (let brand in brands) {
-                selectBrand.options[selectBrand.options.length] = new Option(brand, brand);
-            }
+// Event listener for brand dropdown change
+brandDropdown.addEventListener('change', function() {
+    const selectedProduct = productDropdown.value;
+    const selectedBrand = this.value;
 
-            selectBrand.disabled = false;
-        } else {
-            selectBrand.disabled = true;
-            selectVariation.disabled = true;
-            variationDetails.style.display = 'none';
-        }
+    // Clear and disable the variation dropdown
+    variationDropdown.innerHTML = '<option value="">Select a Variation</option>';
+    variationDropdown.disabled = true;
 
-        selectVariation.disabled = true;
-        variationDetails.style.display = 'none';
-    };
-
-    selectBrand.onchange = function() {
-        const selectedProduct = selectProduct.value;
-        const selectedBrand = this.value;
+    if (selectedProduct && selectedBrand) {
+        // Populate the variation dropdown
         const variations = data[selectedProduct][selectedBrand];
+        variations.forEach(variation => {
+            const option = document.createElement('option');
+            option.value = variation.name;
+            option.textContent = variation.name;
+            variationDropdown.appendChild(option);
+        });
 
-        selectVariation.innerHTML = '<option value="" disabled selected>Select a Variation</option>';
+        // Enable the variation dropdown
+        variationDropdown.disabled = false;
+    }
 
-        if (selectedBrand) {
-            variations.forEach((variation, index) => {
-                selectVariation.options[selectVariation.options.length] = new Option(variation.name, index);
-            });
+    // Clear product info
+    productImage.src = '';
+    productDescription.textContent = '';
 
-            selectVariation.disabled = false;
-        } else {
-            selectVariation.disabled = true;
-            variationDetails.style.display = 'none';
+    // Update visibility based on current selections
+    updateVisibility();
+});
+
+// Event listener for variation dropdown change
+variationDropdown.addEventListener('change', function() {
+    const selectedProduct = productDropdown.value;
+    const selectedBrand = brandDropdown.value;
+    const selectedVariation = this.value;
+
+    if (selectedProduct && selectedBrand && selectedVariation) {
+        // Find the selected variation data
+        const variation = data[selectedProduct][selectedBrand].find(v => v.name === selectedVariation);
+        
+        if (variation) {
+            // Update product info
+            productImage.src = variation.image;
+            productDescription.textContent = variation.description;
         }
-    };
+    }
 
-    selectVariation.onchange = function() {
-        const selectedProduct = selectProduct.value;
-        const selectedBrand = selectBrand.value;
-        const selectedVariationIndex = this.value;
-        const variationInfo = data[selectedProduct][selectedBrand][selectedVariationIndex];
+    // Update visibility based on current selections
+    updateVisibility();
+});
 
-        if (variationInfo) {
-            variationImage.src = variationInfo.image;
-            variationDescription.textContent = variationInfo.description;
-            variationDetails.style.display = 'block';
-        } else {
-            variationDetails.style.display = 'none';
-        }
-    };
-};
+// Initial visibility check
+updateVisibility();
+
