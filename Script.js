@@ -226,7 +226,7 @@ const data = {
 
     "Polishes & Mops": {
         "Glissen Nitro (Best In The Range)": [
-            { name: "Compound Single Stage 1kg", image: "Images/Glissen/Compound Single Stage 1kg GLI001 Glissen Nitro 9106405003.png", description: "Main Application Compound Used For All Purposes 9106405003" },
+            { name: "Compound Single Stage 1kg", image: "Images/Glissen/Compound Single Stage 1kg GLI001 Glissen Nitro 9106405003.png", description: "9106405003 Main Application Compound Used For All Purposes." },
             { name: "Compound Finishing 1kg", image: "Images/Glissen/Compound Finishing 1kg GLI002 Glissen Nitro 9106405001.png", description: "9106405001 Final application compound used for dark colors" },
             { name: "Nitro Wax Incl. Microfiber Cloth", image: "Images/Glissen/GLI003-N1TRO-WAX.png", description: "9106405002 Liquid Wax compound used after the polishing and washing stage" },
             { name: "Wax Paste Kit 120gr", image: "Images/Glissen/GLI004-N1TRO-PASTE-WAX-120G.png", description: "9106405006 Paste Wax is used to give an extra shine to the surface after the car has been polished and washed. Usually on Dark Colors" },
@@ -327,7 +327,7 @@ const data = {
             { name: "2K MS Primer Beige 5L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Primer Beige 5L.png", description: "9123200021 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
             { name: "2K MS Grey Primer 1L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Grey Primer 1L.png", description: "9123200022 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
             { name: "2K MS Grey Primer 5L(Requires Hardener & Thinner)", image: "Images/Speed & Challenger/Speed 2K MS Primer Grey 5L.png", description: "9123200023 Speed Ecoline MS Primer can be applied over PE putties/body fillers, 2K Epoxy Primers, 2K wash Primers, 1K Etch Primers, original OEM primers, GRP, and over well sanded old finishes in solid conditions." },
-            { name: "NC Grey Primer 1L (NO Hardener Required)", image: "Images/Speed & Challenger/Speed NC Grey Primer.png", description: "Speed grey Primer is a modified nitrocellulose based primer. Easy application and sanding, quick drying, has got good filling ability and provide excellent hiding power." }
+            { name: "NC Grey Primer 1L (NO Hardener Required)", image: "Images/Speed & Challenger/Speed NC Grey Primer.png", description: "9123200024 Speed grey Primer is a modified nitrocellulose based primer. Easy application and sanding, quick drying, has got good filling ability and provide excellent hiding power." }
         ],
         "Luxor (3rd Affordable Alternative)": [
             { name: "MS Primer Beige 1L(Requires Hardener & Thinner)", image: "Images/Luxor/MS Beige Primer Transline 1L.png", description: "9123504001 High-quality primer for various surfaces Ensures excellent adhesion for top coat applications Fast-drying formulation for quick project turnaround" },
