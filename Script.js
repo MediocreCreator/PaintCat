@@ -390,19 +390,19 @@ const data = {
         ],
         
         "3M":[
-            { name: "Sponge Fine", image: "Images/3M/Sponges.png", description: "9106115527 P320 - P400. E–Coat Sanding (New Panels)" },
-            { name: "Sponge Super Fine", image: "Images/3M/Sponges.png", description: "9106115530 P500 - P600 Grit. Primer Sanding (Awkward Areas)" },
-            { name: "Sponge Ultra Fine", image: "Images/3M/Sponges.png", description: "9106115532 P800 - P1000 Grit. Primer Sanding (Awkward Areas, Critical Colours)" },
-            { name: "Sponge Micro Fine", image: "Images/3M/Sponges.png", description: "9106115531 P1200 - P1500 Grit. Used For De-nibbing Of Base Coat, Prep Blending (Awkward Areas)" },
+            { name: "Sponge Fine", image: "Images/3M/Sponges.png", description: "9106115527 P320 - P400. Sand primer, smooth repaired areas, prepare primer for additional primer or sealer, scuff areas where moderate cut is needed." },
+            { name: "Sponge Super Fine", image: "Images/3M/Sponges.png", description: "9106115530 P500 - P600. Scuff OEM finishes before basecoat, blend panel preparation, prepare primer surfacer before basecoat, sand sealer imperfections." },
+            { name: "Sponge Ultra Fine", image: "Images/3M/Sponges.png", description: "9106115532 P800 - P1000. Final scuffing before basecoat, blending adjacent panels, preparing e-coat or factory finishes, sanding small dust nibs before paint." },
+            { name: "Sponge Micro Fine", image: "Images/3M/Sponges.png", description: "9106115531 P1200 - P1500. Remove minor paint defects, refine sanding scratches before polishing, prepare for spot repairs." },
 
         ],
         
         
         "Speed (Affordable Alternative)": [
-            { name: "Sponge Cumi Medium", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401221 P120 - P180. Used After Body Filler Has Been Applied" },
-           { name: "Sponge Cumi Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401220 P320 - P400. E–Coat Sanding (New Panels)" },
-           { name: "Sponge Cumi Super Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401222 P500 - P600 Grit. Primer Sanding (Awkward Areas)" },
-           { name: "Sponge Cumi Ultra Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401223 P800 - P1000 Grit. Primer Sanding (Awkward Areas, Critical Colours)" }
+            { name: "Sponge Cumi Medium", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401221 P120 - P180. Remove gloss from old paint before primer, feather-edge repairs, shape body filler, key hard plastics before primer." },
+           { name: "Sponge Cumi Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401220 P320 - P400. Sand primer, smooth repaired areas, prepare primer for additional primer or sealer, scuff areas where moderate cut is needed." },
+           { name: "Sponge Cumi Super Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401222 P500 - P600 Grit. Scuff OEM finishes before basecoat, blend panel preparation, prepare primer surfacer before basecoat, sand sealer imperfections." },
+           { name: "Sponge Cumi Ultra Fine", image: "Images/Speed/CSSF_-_CUMI_FINE_SANDING_SPONGES.png", description: "9106401223 P800 - P1000 Grit. Final scuffing before basecoat, blending adjacent panels, preparing e-coat or factory finishes, sanding small dust nibs before paint." }
         ]
     },
 
