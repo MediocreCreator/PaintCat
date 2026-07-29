@@ -202,8 +202,6 @@ const data = {
             { name: "Sanding Block Dust Free 70x400mm", image: "Images/Sunmight/Fixon Long.png", description: "9106405097" }
 
             
-
-
         ]
     },
 
